@@ -1,0 +1,63 @@
+.title{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.form{
+    margin:auto;
+    max-width: 80%;
+    text-align: center;
+}
+
+#edit-box{
+    display: none;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+body {
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+input[type="text"]{
+    width: 50;
+    height: 20;
+    margin-right: 3px;
+    padding: 10px;
+
+}
+
+input[type="time"]{
+    width: 50;
+    height: 20;
+    margin-right: 3px;
+    padding: 10px;
+}
+
+
+#dolist {
+    border-style: solid;
+    border-top-width: 3px;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-color: pink; 
+}
+
+#setting {
+    
+    position: absolute;
+    right : 55px;
+    
+}
+
+#remove {
+    float: right;
+    visibility: hidden;
+}
+
+#rename {
+    float : right;
+    visibility: hidden;
+}
